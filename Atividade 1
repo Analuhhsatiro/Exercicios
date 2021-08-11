@@ -1,0 +1,30 @@
+import java.swing.*;
+
+public class Exercicio1 {
+	public static void main(String[] args) {
+	  int [] alunos = new int [v_alunos]
+		
+		double notaAluno,mediaNotas,somaNotas = 0.00;
+		
+		v_alunos = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o número de alunos: "));
+		
+		for(int i = 0; i <= alunos; i++) {
+			
+			v_nomeAluno = JOptionPane.showInputDialog (null,"Escreva o nome do aluno cuja as notas serão informadas: ");
+			
+			int [] notasQuant = new int [v_quantnotas]
+		
+		  v_quantnotas  = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de Notas do Aluno: "));
+		  
+		    for (int j = 0; j <= notasQuant; j++) {
+				
+				  notaAluno = Integer.parseInt(JOptionPane.showInputDialog("Digite a nota do aluno: "));
+				  somaNotas += notaAluno;
+				
+			}
+		    mediaNotas = somaNotas/notasQuant;
+			  JOptionPane.showMessageDialog(null,"O aluno " + v_nomeAluno + " obteve a média de: " + mediaNotas));
+		}
+	}
+}
+	
